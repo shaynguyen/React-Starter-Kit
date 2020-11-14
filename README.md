@@ -6,9 +6,10 @@ dear future self, use these setting / instructions to help yourself set up your 
 
 ## GIT
 `` git init ``
-### .gitignore
-``
 
+### .gitignore
+
+```
 *.idea/
 *.iml
 node_modules/
@@ -18,8 +19,8 @@ dist/
 coverage/
 .vscode/
 .env
+```
 
-``
 ## REACT
 `` npm install react react-dom ``
 
