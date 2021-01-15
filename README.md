@@ -26,7 +26,7 @@ coverage/
 
 ## ESLINT
 ``
-npm install --save-dev prettier eslint eslint-config-prettier eslint-plugin-react eslint-plugin-import eslint-plugin-jsx-a11y 
+npm install --save-dev prettier eslint eslint-config-prettier eslint-plugin-react eslint-plugin-import eslint-plugin-jsx-a11y babel-eslint 
 ``
 
 ## .eslintrc.json
