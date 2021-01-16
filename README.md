@@ -26,7 +26,7 @@ coverage/
 
 ## ESLINT
 ``
-npm install --save-dev prettier eslint eslint-config-prettier eslint-plugin-react eslint-plugin-import eslint-plugin-jsx-a11y babel-eslint 
+npm install --save-dev prettier eslint eslint-config-prettier eslint-plugin-react eslint-plugin-import eslint-plugin-jsx-a11y babel-eslint eslint-plugin-react-hooks 
 ``
 
 ## .eslintrc.json
@@ -43,7 +43,8 @@ npm install --save-dev prettier eslint eslint-config-prettier eslint-plugin-reac
   "plugins": [
     "react",
     "jsx-a11y",
-    "import"
+    "import",
+    "react-hooks"
   ],
   "parserOptions": {
     "ecmaVersion": 2018,
@@ -54,7 +55,9 @@ npm install --save-dev prettier eslint eslint-config-prettier eslint-plugin-reac
   },
   "rules": {
     "react/prop-types": 0,
-    "no-console": 1
+    "no-console": 1,
+    "react-hooks/rules-of-hooks": 2,
+    "react-hooks/exhaustive-deps": 1
   },
   "env": {
     "es6": true,
